@@ -1,0 +1,139 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    margin: 60px auto;
+    padding: 60px 0px 0px 0px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 96px;
+  }
+  
+  h2 {
+    font-size: 48px;
+    padding: 40px 0px 0px 0px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
+  .homepage-link {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+  }
+  
+  .about-paragraphs {
+    margin: 0 auto;
+  }
+  
+  p {
+    margin: 10px;
+  }
+  
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    min-width: 200px;
+    max-width: 500px;
+    border: 7px solid var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+  }
+  
+  h2.descriptions {
+    text-align: left;
+    padding: 0;
+  }
+  
+  p.descriptions {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .app-links {
+    display: flex;
+    margin-top: 40px;
+  
+    justify-content: center;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    width: 250px;
+  }
+  
+  .app-links1 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    width: 190px;
+  }
+  
+  a.app-links,
+  a.app-links1 {
+    margin: 20px 0px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
