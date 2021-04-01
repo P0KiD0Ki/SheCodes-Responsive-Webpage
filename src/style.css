@@ -110,26 +110,14 @@
   .app-links {
     display: flex;
     margin-top: 40px;
-  
     justify-content: center;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
-    width: 250px;
+    width: 180px;
   }
   
-  .app-links1 {
-    display: flex;
-    margin-top: 40px;
-    justify-content: center;
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-    width: 190px;
-  }
-  
-  a.app-links,
-  a.app-links1 {
+  a.app-links {
     margin: 20px 0px;
     border-radius: 4px;
     padding: 20px 15px;
